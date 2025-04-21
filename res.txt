@@ -1,0 +1,28 @@
+====================== YOLOv8 TEST SUMMARY ======================
+Model Used         : yolov8n.pt
+Image Size         : 160
+Camera Resolution  : (416, 312)
+Confidence Thresh  : 0.3
+Total Time (s)     : 73.74
+Total Frames       : 1319
+
+--- FPS Stats ---
+Avg FPS            : 18.52
+Max FPS            : 20.11
+Min FPS            : 1.02
+
+--- Detection Confidence ---
+Avg Confidence     : 0.70
+Max Confidence     : 0.93
+Min Confidence     : 0.30
+
+--- ML Performance Metrics (Simulated) ---
+Precision          : 0.95
+Recall (Sensitivity): 0.90
+Specificity        : 0.00
+NPV                : 0.00
+Accuracy           : 0.86
+F1 Score           : 0.92
+Confusion Matrix   : TP=1186, FP=68, FN=133, TN=0
+
+
