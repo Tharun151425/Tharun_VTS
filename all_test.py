@@ -17,7 +17,7 @@ log_filename = "res_yolo.txt"
 csv_file_path = "./res_yolo.csv"
 
 # === CONFIGURATION ===
-MODEL_NAME = "yolov8m.pt"  # Change to yolov8s.pt or yolov8n-seg.pt
+MODEL_NAME = "yolov8n.pt"  # Change to yolov8s.pt or yolov8n-seg.pt
 IMG_SIZE = 160
 CONF_THRESH = 0.3
 RESOLUTION = (480, 360)
