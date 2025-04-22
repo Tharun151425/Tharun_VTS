@@ -1,0 +1,5 @@
+ultralytics==8.1.28
+opencv-python==4.7.0.72
+numpy
+picamera2
+
