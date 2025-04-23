@@ -1392,3 +1392,65 @@ Confusion Matrix   : TP=83, FP=85, FN=0, TN=0
 Remark : crazyy acc but slowww
 ===============================================================
 
+
+====================== YOLOv8 TEST SUMMARY ======================
+Timestamp          : 2025-04-22 17:13:49
+Model Used         : yolov8n-seg.pt
+Image Size         : 160
+Camera Resolution  : (480, 360)
+Confidence Thresh  : 0.3
+Total Time (s)     : 24.86
+Total Frames       : 130
+
+--- FPS Stats ---
+Avg FPS            : 4.32
+Max FPS            : 5.23
+Min FPS            : 0.35
+
+--- Detection Confidence ---
+Avg Confidence     : 0.66
+Max Confidence     : 0.93
+Min Confidence     : 0.30
+
+--- ML Performance Metrics (Simulated) ---
+Precision          : 0.37
+Recall (Sensitivity): 0.90
+Specificity        : 0.00
+NPV                : 0.00
+Accuracy           : 0.35
+F1 Score           : 0.52
+Confusion Matrix   : TP=117, FP=201, FN=13, TN=0
+Remark : okayy
+===============================================================
+
+
+====================== YOLOv8 TEST SUMMARY ======================
+Timestamp          : 2025-04-22 17:20:33
+Model Used         : yolov8n.pt
+Image Size         : 160
+Camera Resolution  : (480, 360)
+Confidence Thresh  : 0.3
+Total Time (s)     : 28.31
+Total Frames       : 200
+
+--- FPS Stats ---
+Avg FPS            : 5.93
+Max FPS            : 7.06
+Min FPS            : 0.39
+
+--- Detection Confidence ---
+Avg Confidence     : 0.62
+Max Confidence     : 0.85
+Min Confidence     : 0.30
+
+--- ML Performance Metrics (Simulated) ---
+Precision          : 0.29
+Recall (Sensitivity): 0.91
+Specificity        : 0.00
+NPV                : 0.00
+Accuracy           : 0.29
+F1 Score           : 0.44
+Confusion Matrix   : TP=181, FP=434, FN=18, TN=0
+Remark : bad
+===============================================================
+
